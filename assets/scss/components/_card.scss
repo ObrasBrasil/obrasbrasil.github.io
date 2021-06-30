@@ -1,0 +1,22 @@
+.card {
+	&-img-top {
+		height: 150px;
+		object-fit: cover;
+	}
+
+	&-link {
+		text-decoration: none;
+		color: inherit;
+
+		&:hover {
+			color: inherit;
+		}
+	}
+
+	.obra-informacoes {
+		padding: 10px 0 0;
+		list-style: none;
+	}
+}
+
+

@@ -1,0 +1,37 @@
+.obra-card {
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.obra-card-title {
+	font-size: 10pt;
+}
+
+.obra-card-title i {
+	color: rgb(50, 173, 230);
+}
+
+.obra-card-content {
+	font-size: 16pt;
+}
+
+.source {
+	background-color:#ebfff2;
+}
+
+figcaption {
+	color: #757575;
+	font-size: 8pt;
+	margin-bottom: 20px;
+}
+
+figure {
+	display: block;
+}
+
+.cards-obra {
+	align-items: stretch;
+}

@@ -1,17 +1,25 @@
-/*ICONES*/
+@charset "UTF-8";
+/* line 1, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
+img {
+  max-width: 100%;
+}
 
+/* line 5, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
+a {
+  color: #162B5F;
+}
+
+/*ICONES*/
 @font-face {
   font-family: 'obras-brasil';
-  src:  url('./fonts/obras-brasil.eot?o5whf4');
-  src:  url('./fonts/obras-brasil.eot?o5whf4#iefix') format('embedded-opentype'),
-    url('./fonts/obras-brasil.ttf?o5whf4') format('truetype'),
-    url('./fonts/obras-brasil.woff?o5whf4') format('woff'),
-    url('./fonts/obras-brasil.svg?o5whf4#obras-brasil') format('svg');
+  src: url("./fonts/obras-brasil.eot?o5whf4");
+  src: url("./fonts/obras-brasil.eot?o5whf4#iefix") format("embedded-opentype"), url("./fonts/obras-brasil.ttf?o5whf4") format("truetype"), url("./fonts/obras-brasil.woff?o5whf4") format("woff"), url("./fonts/obras-brasil.svg?o5whf4#obras-brasil") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
+/* line 23, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'obras-brasil' !important;
@@ -21,409 +29,550 @@ i {
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* line 38, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-conta:before {
   content: "\e900";
 }
+
+/* line 41, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-acompanhar:before {
   content: "\e901";
 }
+
+/* line 44, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-acompanhar_on:before {
   content: "\e902";
 }
+
+/* line 47, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-arrow_down:before {
   content: "\e903";
 }
+
+/* line 50, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-arrow_left:before {
   content: "\e904";
 }
+
+/* line 53, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-arrow_right:before {
   content: "\e905";
 }
+
+/* line 56, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-arrow_top:before {
   content: "\e906";
 }
+
+/* line 59, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-chat:before {
   content: "\e907";
 }
+
+/* line 62, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-comment:before {
   content: "\e908";
 }
+
+/* line 65, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-compartilhar:before {
   content: "\e909";
 }
+
+/* line 68, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-custo:before {
   content: "\e90a";
 }
+
+/* line 71, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-data:before {
   content: "\e90b";
 }
+
+/* line 74, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-email:before {
   content: "\e90c";
 }
+
+/* line 77, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-fav:before {
   content: "\e90d";
 }
+
+/* line 80, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-fav_on:before {
   content: "\e90e";
 }
+
+/* line 83, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-filtro:before {
   content: "\e90f";
 }
+
+/* line 86, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-governo:before {
   content: "\e910";
 }
+
+/* line 89, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-like:before {
   content: "\e911";
 }
+
+/* line 92, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-local:before {
   content: "\e912";
 }
+
+/* line 95, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-noticia:before {
   content: "\e913";
 }
+
+/* line 98, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-pessoa:before {
   content: "\e914";
 }
+
+/* line 101, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-pesquisa:before {
   content: "\e915";
 }
+
+/* line 104, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-policy:before {
   content: "\e916";
 }
+
+/* line 107, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-privacidade:before {
   content: "\e917";
 }
+
+/* line 110, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-tempo:before {
   content: "\e918";
 }
+
+/* line 113, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-trending:before {
   content: "\e919";
 }
+
+/* line 116, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .i-unlike:before {
   content: "\e91a";
 }
 
-img {
-	max-width: 100%;
-}
-
-.header-menu ul {
-	display: block;
-	text-align: center;
-	margin-bottom: 0;
-}
-
-.logo {
-	width: 250px;
-	max-width: 100%;
-}
-
-.obras-heroslider {
-	position: relative;
-	height: 450px;
-	background-color: #002776;
-	color: #F1F1F1;
-}
-
-.obras-heroslider.secondary {
-	height: 200px;
-}
-
-.obras-heroslider.secondary .logo {
-	width: 150px;
-}
-
-.obras-heroslider::before {
-	content: "";
-	position: absolute;
-	height: 100%;
-	width: 100%;
-	background-image: url(./photos/heroslider.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.3;
-}
-
-.obras-heroslider .container {
-	height: 100%;
-}
-
-.obras-heroslider .row {
-	height: 100%;
-	align-items: center;
-}
-
-.header-menu li {
-	display: inline-block;
-	padding: 15px;
-	color: rgb(50, 173, 230);
-	font-weight: bold;
-	transition: 250ms ease-in-out;
-}
-
-.header-menu li:hover {
-	color: rgb(100, 210, 255);
-
-}
-
-.header-menu li>a {
-	color: inherit;
-	display: inline-block;
-	text-decoration: none;
-	position: relative;
-}
-
-.header-menu li>a.active::before,
-.header-menu li>a:hover::before {
-	content: "•";
-	font-size: 16pt;
-	position: absolute;
-	top: -6px;
-	left: -15px;
-}
-
-.header-menu li>a:hover::before {
-	color: rgb(100, 210, 255);
-}
-
-.header-menu li>a.active::before {
-	color: rgb(255, 45, 85);
-}
-
+/* line 120, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
 .obra-status {
-	font-size: 12pt;
-	margin-bottom: 10px;
+  font-size: 12pt;
+  margin-bottom: 10px;
+  transition: 250ms ease-in-out;
+  cursor: pointer;
 }
 
-.obra-custo-valor {
-	font-weight: bold;
-	font-size: 18pt;
+/* line 126, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_general.scss */
+.obra-status.active, .obra-status:hover {
+  background-color: #e06c00;
+  color: #f1f1f1;
 }
 
-.card-img-top {
-	height: 150px;
-	object-fit: cover;
+/* line 4, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_header.scss */
+.header-menu ul {
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
-.card-link {
-	text-decoration: none;
-	color: inherit;
+/* line 11, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_header.scss */
+.header-menu-item {
+  display: inline-block;
+  padding: 15px;
+  color: #32ade6;
+  font-weight: bold;
+  transition: 250ms ease-in-out;
 }
 
-.card-link:hover {
-	color: inherit;
+/* line 20, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_header.scss */
+.header-menu-link {
+  color: inherit;
+  display: inline-block;
+  position: relative;
 }
 
-.obra-informacoes {
-	padding: 0;
-	list-style: none;
+/* line 25, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_header.scss */
+.header-menu-link:hover {
+  color: #64d2ff;
+  text-decoration: none;
 }
 
+/* line 30, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_header.scss */
+.header-menu-link.active::before, .header-menu-link:hover::before {
+  content: "•";
+  font-size: 16pt;
+  position: absolute;
+  top: -6px;
+  left: -15px;
+}
+
+/* line 38, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_header.scss */
+.header-menu-link:hover::before {
+  color: #64d2ff;
+}
+
+/* line 42, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_header.scss */
+.header-menu-link.active::before {
+  color: #ff2d55;
+}
+
+/* line 1, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+.heroslider {
+  position: relative;
+  height: 450px;
+  background-color: #002776;
+  color: #F1F1F1;
+}
+
+/* line 7, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+.heroslider .logo {
+  width: 250px;
+  max-width: 100%;
+}
+
+/* line 12, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+.heroslider.slim {
+  height: 200px;
+}
+
+/* line 15, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+.heroslider.slim .logo {
+  width: 150px;
+}
+
+/* line 20, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+.heroslider::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url(./photos/heroslider.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+/* line 31, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+.heroslider > .container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  height: 100%;
+}
+
+/* line 36, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+.heroslider > .container > .row {
+  height: 100%;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 44, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+  .heroslider {
+    height: 600px;
+  }
+  /* line 47, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+  .heroslider.slim {
+    height: 150px;
+  }
+  /* line 50, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_heroslider.scss */
+  .heroslider.slim h1 {
+    font-size: 18pt;
+  }
+}
+
+/* line 1, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_footer.scss */
 footer {
-	background-color: #002776;
-	color: #F1F1F1;
-	font-family: 'Rubik', sans-serif;
+  background-color: #002776;
+  color: #F1F1F1;
+  font-family: 'Rubik', sans-serif;
 }
 
+/* line 6, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_footer.scss */
 footer .logo {
-	width: 250px;
+  width: 250px;
 }
 
+/* line 10, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_footer.scss */
 footer ul {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
-footer ul>li>a {
-	color: #F1F1F1;
-	text-transform: uppercase;
-	font-size: 10pt;
+/* line 14, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_footer.scss */
+footer ul > li > a {
+  color: #F1F1F1;
+  text-transform: uppercase;
+  font-size: 10pt;
 }
 
-footer ul>li>a:hover {
-	color: #ffffff;
-	text-decoration: none;
+/* line 19, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_footer.scss */
+footer ul > li > a:hover {
+  color: #ffffff;
+  text-decoration: none;
 }
 
+/* line 26, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_footer.scss */
+footer .box-social-media span {
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 10pt;
+}
+
+/* line 1, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_social.scss */
 .box-social-media span {
-	display: block;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-	font-size: 10pt;
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 10pt;
 }
 
+/* line 8, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_social.scss */
 ul.social-media > li {
-	display: inline-block;
-	width: 30px;
+  display: inline-block;
+  width: 30px;
 }
 
+/* line 2, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_card.scss */
+.card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+/* line 7, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_card.scss */
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 11, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_card.scss */
+.card-link:hover {
+  color: inherit;
+}
+
+/* line 16, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_card.scss */
+.card .obra-informacoes {
+  padding: 10px 0 0;
+  list-style: none;
+}
+
+/* line 1, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_comment.scss */
 .comment {
-	background-color: #ffffff;
-	border-radius: 10px;
-	padding: 10px 15px 5px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px 15px 5px;
 }
 
+/* line 6, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_comment.scss */
 .comment-wrapper {
-	margin-bottom: 2em;
+  margin-bottom: 2em;
 }
 
+/* line 10, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_comment.scss */
 .comment-title {
-	font-size: 16pt;
-	font-weight: bold;
+  font-size: 16pt;
+  font-weight: bold;
 }
 
+/* line 15, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_comment.scss */
 .comment-author {
-	font-size: 10pt;
-	color: #a8a8a8;
-	margin-bottom: 5px;
+  font-size: 10pt;
+  color: #a8a8a8;
+  margin-bottom: 5px;
 }
 
+/* line 21, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_comment.scss */
 .comment-content {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
+/* line 25, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_comment.scss */
 .comment-actions {
-	list-style: none;
-	padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
+/* line 29, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_comment.scss */
 .comment-actions > li {
-	font-family: 'Rubik', sans-serif;
-	display: inline-block;
+  font-family: 'Rubik', sans-serif;
+  display: inline-block;
 }
 
+/* line 37, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_comment.scss */
 .sub-comment {
-	padding-left: 30px;	
+  padding-left: 30px;
 }
 
-/* HISTORICO */
-
+/* line 1, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .timeline {
-	border-left: 3px solid #727cf5;
-	border-bottom-right-radius: 4px;
-	border-top-right-radius: 4px;
-	background: rgba(114, 124, 245, 0.09);
-	margin: 0 auto;
-	letter-spacing: 0.2px;
-	position: relative;
-	line-height: 1.4em;
-	font-size: 1.03em;
-	padding: 50px;
-	list-style: none;
-	text-align: left;
-	max-width: 40%;
-	padding: 25px;
-	max-width: 98%;
+  border-left: 3px solid #162B5F;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+  background: rgba(114, 138, 245, 0.09);
+  margin: 0 auto;
+  letter-spacing: 0.2px;
+  position: relative;
+  line-height: 1.4em;
+  font-size: 1.03em;
+  padding: 50px;
+  list-style: none;
+  text-align: left;
+  max-width: 40%;
+  padding: 25px;
+  max-width: 98%;
 }
 
+/* line 19, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .timeline h1 {
-	font-weight: 300;
-	font-size: 1.4em;
+  font-weight: 300;
+  font-size: 1.4em;
 }
 
+/* line 24, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .timeline h2,
 .timeline h3 {
-	font-weight: 600;
-	font-size: 1rem;
-	margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
+/* line 31, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .timeline .event {
-	border-bottom: 1px dashed #e8ebf1;
-	padding-bottom: 25px;
-	padding-top: 30px;
-	margin-bottom: 25px;
-	position: relative;
+  border-bottom: 1px dashed #e8ebf1;
+  padding-bottom: 25px;
+  padding-top: 30px;
+  margin-bottom: 25px;
+  position: relative;
 }
 
+/* line 39, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .timeline .event:last-of-type {
-	padding-bottom: 0;
-	margin-bottom: 0;
-	border: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
 }
 
+/* line 45, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .timeline .event:before,
 .timeline .event:after {
-	position: absolute;
-	display: block;
-	top: 0;
+  position: absolute;
+  display: block;
+  top: 0;
 }
 
+/* line 52, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .timeline .event:before {
-	left: 0px;
-	content: attr(data-date);
-	text-align: left;
-	font-weight: 100;
-	font-size: 0.9em;
-	min-width: 120px;
+  left: 0px;
+  content: attr(data-date);
+  text-align: left;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
 }
 
+/* line 61, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .timeline .event:after {
-	-webkit-box-shadow: 0 0 0 3px #727cf5;
-	box-shadow: 0 0 0 3px #727cf5;
-	left: -31.8px;
-	background: #fff;
-	border-radius: 50%;
-	height: 9px;
-	width: 9px;
-	content: "";
-	top: 5px;
+  -webkit-box-shadow: 0 0 0 3px #162B5F;
+  box-shadow: 0 0 0 3px #162B5F;
+  left: -31.8px;
+  background: #fff;
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 5px;
 }
 
+/* line 73, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .rtl .timeline {
-	border-left: 0;
-	text-align: right;
-	border-bottom-right-radius: 0;
-	border-top-right-radius: 0;
-	border-bottom-left-radius: 4px;
-	border-top-left-radius: 4px;
-	border-right: 3px solid #727cf5;
+  border-left: 0;
+  text-align: right;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+  border-right: 3px solid #162B5F;
 }
 
+/* line 83, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .rtl .timeline .event::before {
-	left: 0;
-	right: -170px;
+  left: 0;
+  right: -170px;
 }
 
+/* line 88, ../../Apache24/htdocs/obras-brasil/assets/scss/components/_timeline.scss */
 .rtl .timeline .event::after {
-	left: 0;
-	right: -55.8px;
+  left: 0;
+  right: -55.8px;
 }
 
-/*/ HISTORICO /*/
+@media screen and (max-width: 767px) {
+  /* line 2, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_home.scss */
+  .main-row {
+    flex-direction: column-reverse;
+  }
+}
 
+/* line 1, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_detalhamento.scss */
 .obra-card {
-	background-color: #ffffff;
-	border-radius: 5px;
-	padding: 10px;
-	margin-bottom: 10px;
-	box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
+/* line 9, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_detalhamento.scss */
 .obra-card-title {
-	font-size: 10pt;
+  font-size: 10pt;
 }
 
+/* line 13, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_detalhamento.scss */
 .obra-card-title i {
-	color: rgb(50, 173, 230);
+  color: #32ade6;
 }
 
+/* line 17, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_detalhamento.scss */
 .obra-card-content {
-	font-size: 16pt;
+  font-size: 16pt;
 }
 
+/* line 21, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_detalhamento.scss */
+.source {
+  background-color: #ebfff2;
+}
+
+/* line 25, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_detalhamento.scss */
 figcaption {
-	color: #757575;
-	font-size: 8pt;
-	margin-bottom: 20px;
+  color: #757575;
+  font-size: 8pt;
+  margin-bottom: 20px;
 }
 
+/* line 31, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_detalhamento.scss */
 figure {
-	display: block;
+  display: block;
 }
+
+/* line 35, ../../Apache24/htdocs/obras-brasil/assets/scss/pages/_detalhamento.scss */
+.cards-obra {
+  align-items: stretch;
+}
+
+/*# sourceMappingURL=styles.css.map */
